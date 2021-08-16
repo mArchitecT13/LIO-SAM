@@ -1,7 +1,7 @@
 # LIO-SAM
 
 **A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**
-I have tested this in Ubuntu 20.04, ROS Neotic. Have made some changes in CMakeLists.txt and utility.h to make it compatible.
+I have tested this in Ubuntu 20.04, ROS Noetic. Have made some changes in CMakeLists.txt and utility.h to make it compatible.
 
 <p align='center'>
     <img src="./config/doc/demo.gif" alt="drawing" width="800"/>
@@ -56,11 +56,11 @@ We design a system that maintains two graphs and runs up to 10x faster than real
 
 This is the original ROS1 implementation of LIO-SAM. For a ROS2 implementation see branch `ros2`.
 
-- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Neotic)
+- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Noetic)
   ```
-  sudo apt-get install -y ros-neotic-navigation
-  sudo apt-get install -y ros-neotic-robot-localization
-  sudo apt-get install -y ros-neotic-robot-state-publisher
+  sudo apt-get install -y ros-noetic-navigation
+  sudo apt-get install -y ros-noetic-robot-localization
+  sudo apt-get install -y ros-noetic-robot-state-publisher
   ```
 - [gtsam](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library)
   ```
