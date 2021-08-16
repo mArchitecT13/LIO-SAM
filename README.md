@@ -80,7 +80,7 @@ Use the following commands to download and compile the package.
 cd ~/catkin_ws/src
 git clone https://github.com/mArchitecT13/LIO-SAM.git
 cd ..
-catkin_make
+catkin_make -DCATKIN_WHITELIST_PACKAGES="lio_sam"
 ```
 
 ## Prepare lidar data
