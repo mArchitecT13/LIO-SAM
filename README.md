@@ -55,11 +55,11 @@ We design a system that maintains two graphs and runs up to 10x faster than real
 
 This is the original ROS1 implementation of LIO-SAM. For a ROS2 implementation see branch `ros2`.
 
-- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Kinetic and Melodic)
+- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Neotic)
   ```
-  sudo apt-get install -y ros-kinetic-navigation
-  sudo apt-get install -y ros-kinetic-robot-localization
-  sudo apt-get install -y ros-kinetic-robot-state-publisher
+  sudo apt-get install -y ros-neotic-navigation
+  sudo apt-get install -y ros-neotic-robot-localization
+  sudo apt-get install -y ros-neotic-robot-state-publisher
   ```
 - [gtsam](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library)
   ```
