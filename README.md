@@ -77,7 +77,7 @@ Use the following commands to download and compile the package.
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/TixiaoShan/LIO-SAM.git
+git clone https://github.com/mArchitecT13/LIO-SAM.git
 cd ..
 catkin_make
 ```
